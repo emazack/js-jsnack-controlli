@@ -11,7 +11,7 @@
 
  // i due numeri vengono confrontati e esplicitiamo il risultato con il numero maggiore
  if (numero1 > numero2) {
-   document.getElementById('grande').innerHTML = numero1;
+   document.getElementById('grande').innerHTML = "Il numero più grande è: " + numero1;
  } else {
-   document.getElementById('grande').innerHTML = numero2;
+   document.getElementById('grande').innerHTML = "Il numero più grande è: " + numero2;
  }

@@ -3,3 +3,24 @@
   margin: 0;
   box-sizing: border-box;;
 }
+
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid blue;
+  background-color: lightgrey;
+}
+
+.container_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bellezza{
+  border: 2px solid darkblue;
+  height: 200px;
+  width: 400px;
+}
